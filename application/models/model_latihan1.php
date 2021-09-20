@@ -15,6 +15,14 @@
 			return $this->hasil;
 		}
 
+		public function kurang($n1 = null, $n2 = null)
+		{
+			$this->nilai1 = $n1;
+			$this->nilai2 = $n2;
+			$this->hasil = $this->nilai1 - $this->nilai2;
+			return $this->hasil;
+		}
+
 	}
 
 
