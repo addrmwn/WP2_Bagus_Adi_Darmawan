@@ -20,10 +20,10 @@
  </td>
  </tr>
  <tr>
- <th>Kode MTK</th>
- <th>:</th>
+ <td>Nama MTK</td>
+ <td>:</td>
  <td>
- <?= $kode; ?>
+ <?= $nama; ?>
  </td>
  </tr>
  <tr>
